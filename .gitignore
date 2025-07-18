@@ -1,0 +1,11 @@
+# IntelliJ, Eclipse
+.idea/
+*.iml
+
+# Java build
+**/target/
+*.class
+
+# OS
+.DS_Store
+Thumbs.db

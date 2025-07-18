@@ -1,0 +1,14 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: booking-service
+  kafka:
+    bootstrap-servers: localhost:9094
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+app:
+  services:
+    event: http://localhost:8082/events
+    user: http://localhost:8080/identity/users
