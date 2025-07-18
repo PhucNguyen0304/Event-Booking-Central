@@ -1,35 +1,56 @@
 <!-- ========================= TITLE ========================= -->
-# Project Title
-Một mô tả ngắn gọn về dự án của bạn
+# Event Booking Central
+A microservices-based platform for browsing, booking, and managing events. Each Spring Boot service handles a specific domain, communicating via REST, Kafka, and WebSocket through a central API gateway.
 
 ---
 
-<!-- ========================= DESCRIPTION ========================= -->
-## Description
-Giải thích dự án làm gì, tính năng chính, công nghệ sử dụng…  
+<!-- ========================= TECH STACK ========================= -->
+## Tech Stack
+- Java 21
+
+- Spring Boot
+
+- Spring Cloud (Config, OpenFeign, Gateway)
+
+- Microservice
+
+- Spring Security (JWT, OAuth2)
+
+- Apache Kafka
+
+- WebSocket
+
+- MySQL
+
+- Docker
+
 
 ---
 
-<!-- ========================= TABLE OF CONTENTS ========================= -->
-## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Configuration](#configuration)
-4. [API Documentation](#api-documentation)
-5. [Contributing](#contributing)
-6. [License](#license)
+<!-- ========================= MAIN FEATURES ========================= -->
+## Main Features
+- Modular microservices architecture (Spring Boot & Spring Cloud) for scalable, maintainable services
+
+- Real-time bidirectional messaging via WebSocket for live updates and chat functionality
+
+- Event-driven communication using Apache Kafka to decouple services and ensure reliable workflows
+
+- Automated email notifications with JavaMailSender for user events (welcome on registration, alerts on account deletion)
+
+- Secure authentication & authorization using JWT and OAuth2, enabling robust role-based access control
+
+- Comprehensive RESTful APIs for managing events, orders, and user profiles, with full CRUD operations and input validation
 
 ---
 
 <!-- ========================= INSTALLATION ========================= -->
 ## Installation
-Các bước cài đặt dự án
 ```bash
-# Bước 1: Clone repo
-git clone https://github.com/YourUsername/your-repo.git
+# Bước 1: Clone the repository
+git clone https://github.com/PhucNguyen0304/-Event-Booking-Central.git
 
-# Bước 2: Di chuyển đến thư mục
-cd your-repo
+# Bước 2: Move to the folder
+cd event-booking-central
 
-# Bước 3: Cài dependencies
-npm install        # hoặc mvn clean install
+# Bước 3: Start all services with Docker Compose
+docker-compose up -d
