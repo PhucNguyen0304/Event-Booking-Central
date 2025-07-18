@@ -47,7 +47,7 @@ A microservices–based platform for browsing, booking, and managing events. Eac
 ## Installation
 ```bash
 # Bước 1: Clone the repository
-git clone https://github.com/PhucNguyen0304/-Event-Booking-Central.git
+git clone https://github.com/PhucNguyen0304/Event-Booking-Central.git
 
 # Bước 2: Move to the folder
 cd event-booking-central
