@@ -23,6 +23,7 @@ A microservices–based platform for browsing, booking, and managing events. Eac
 - MySQL
 
 - Docker
+- Linkedin
 
 
 ---
