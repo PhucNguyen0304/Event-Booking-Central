@@ -6,24 +6,17 @@ A microservices–based platform for browsing, booking, and managing events. Eac
 
 <!-- ========================= TECH STACK ========================= -->
 ## Tech Stack
-- Java 21
-
-- Spring Boot
+- Java 21, Spring Boot, Microservice, MySQL
 
 - Spring Cloud (Config, OpenFeign, Gateway)
-
-- Microservice
-
+  
 - Spring Security (JWT, OAuth2)
 
-- Apache Kafka
+- Apache Kafka, Docker, WebSocket
 
-- WebSocket
-
-- MySQL
-
-- Docker
-- Linkedin
+- Unit/Integration Testing
+  
+- Swagger, Jacoco, Sonarqube
 
 
 ---
@@ -41,17 +34,3 @@ A microservices–based platform for browsing, booking, and managing events. Eac
 - Secure authentication & authorization using JWT and OAuth2, enabling robust role-based access control
 
 - Comprehensive RESTful APIs for managing events, orders, and user profiles, with full CRUD operations and input validation
-
----
-
-<!-- ========================= INSTALLATION ========================= -->
-## Installation
-```bash
-# Bước 1: Clone the repository
-git clone https://github.com/PhucNguyen0304/Event-Booking-Central.git
-
-# Bước 2: Move to the folder
-cd event-booking-central
-
-# Bước 3: Start all services with Docker Compose
-docker-compose up -d
