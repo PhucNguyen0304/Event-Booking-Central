@@ -64,5 +64,4 @@ A microservices–based platform for browsing, booking, and managing events. Eac
 📧 phucnguyen34.dev@gmail.com  
 🔗 [GitHub](https://github.com/PhucNguyen0304) | [LinkedIn](https://linkedin.com/in/phúc-nguyễn-871599345)
 
----
 
